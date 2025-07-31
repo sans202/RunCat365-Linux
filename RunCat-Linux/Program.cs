@@ -16,7 +16,7 @@ namespace RunCat_Linux
             }
             catch (Exception e)
             {
-                System.IO.File.WriteAllText("runcat-linux.log", e.ToString());
+                System.IO.File.WriteAllText("/tmp/runcat-linux.log", e.ToString());
             }
         }
     }

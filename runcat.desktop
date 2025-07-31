@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=RunCat Linux
-Exec=bash -c "runcat > ~/.runcat-linux.log 2>&1"
+Exec=runcat
 Icon=/usr/share/icons/hicolor/scalable/apps/runcat.ico
 Terminal=false
