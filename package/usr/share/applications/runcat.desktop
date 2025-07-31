@@ -2,5 +2,5 @@
 Type=Application
 Name=RunCat Linux
 Exec=runcat
-Icon=runcat
+Icon=/usr/share/icons/hicolor/scalable/apps/runcat.ico
 Terminal=false
