@@ -1,0 +1,5 @@
+Package: runcat-linux
+Version: 1.0
+Architecture: amd64
+Maintainer: Your Name <you@example.com>
+Description: A cute running cat animation on your linux panel.

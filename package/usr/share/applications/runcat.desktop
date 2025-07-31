@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=RunCat Linux
+Exec=runcat
+Icon=runcat
+Terminal=false
