@@ -8,9 +8,16 @@ namespace RunCat_Linux
     {
         static void Main(string[] args)
         {
-            Application.Init();
-            new TrayIcon();
-            Application.Run();
+            try
+            {
+                Application.Init();
+                new TrayIcon();
+                Application.Run();
+            }
+            catch (Exception e)
+            {
+                System.IO.File.WriteAllText("runcat-linux.log", e.ToString());
+            }
         }
     }
 
